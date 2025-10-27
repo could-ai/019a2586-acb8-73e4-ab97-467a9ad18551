@@ -11,7 +11,7 @@ class RestaurantDetailScreen extends StatelessWidget {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            Text('Restaurant Name', style: Theme.of(context).textTheme.headline6),
+            Text('Restaurant Name', style: Theme.of(context).textTheme.headlineSmall),
             const SizedBox(height: 10),
             Text('Menu Items will be displayed here.'),
             const Spacer(),
