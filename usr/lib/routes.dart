@@ -73,11 +73,11 @@ class Routes {
   static const reports = '/admin/reports';
   static const payoutScheduling = '/admin/payout_scheduling';
   static const fraud = '/admin/fraud';
-
+// haha
   static Map<String, WidgetBuilder> getRoutes() {
     return {
       // Auth routes
-      '/': (_) => LoginScreen(),  
+      dd'/': (_) => LoginScreen(),  
       login: (_) => LoginScreen(),
       signup: (_) => SignupScreen(),
       otp: (_) => OTPVerificationScreen(),
