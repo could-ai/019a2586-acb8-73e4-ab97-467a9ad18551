@@ -77,7 +77,7 @@ class Routes {
   static Map<String, WidgetBuilder> getRoutes() {
     return {
       // Auth routes
-      // '/': (_) => LoginScreen(),  
+      '/': (_) => LoginScreen(),  
       login: (_) => LoginScreen(),
       signup: (_) => SignupScreen(),
       otp: (_) => OTPVerificationScreen(),
