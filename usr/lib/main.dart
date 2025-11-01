@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 //import 'package:supabase_flutter/supabase_flutter.dart';
 import 'routes.dart';
-import 'integrations/supabase.dart';
+//import 'integrations/supabase.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
