@@ -6,10 +6,10 @@ import 'integrations/supabase.dart';
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
 
-  await Supabase.initialize(
-    url: SupabaseConfig.supabaseUrl,
-    anonKey: SupabaseConfig.supabaseAnonKey,
-  );
+  //await Supabase.initialize(
+   //url: SupabaseConfig.supabaseUrl,
+    //anonKey: SupabaseConfig.supabaseAnonKey,
+  //);
 
   runApp(const MyApp());
 }
